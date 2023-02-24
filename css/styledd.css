@@ -1,0 +1,71 @@
+:root {
+    --cor-fundo: rgb(34, 41, 37);
+    --cor-hover: rgb(35, 50, 133);
+    --cor-primaria: rgb(231, 241, 236);
+   
+    
+}
+/* ALINHAR AS ULS COMS AS LI */
+.dpmenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    font-family: Verdana, Geneva, sans-serif;
+        font-size: 16px;
+}
+/* COLOCAR FUNDO PRETO */
+.dpmenu ul {
+    background-color: rgb(57, 134, 134);
+    box-shadow: 2px 2px 2px #333;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.dpmenu ul li {
+    display: inline;
+    position: relative;
+
+    
+}
+
+
+.dpmenu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px;
+    transition: all 0.1s linear;
+    
+    
+}    
+  
+
+.dpmenu ul li a:hover {
+    background-color: var(--cor-hover);
+    
+}
+.dpmenu ul li a:link {
+    
+    color: rgb(155, 237, 189);
+}
+.dpmenu ul li a:active {
+    
+    text-decoration: underline;
+    color: blue;
+}
+
+
+/*sub menu*/
+.dpmenu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dpmenu ul li:hover ul {
+    display: block;
+}
+
+.dp-menu ul ul li a {
+    display: block;
+}

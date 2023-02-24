@@ -1,0 +1,86 @@
+
+em  {
+    text-align: left;
+    font-size: 50px;  
+    }
+h1, h2, h3 {
+   text-align: center;
+           }
+aside {
+   display: block; 
+   font-size: 14pt;
+   text-align: center;
+   background-color: rgb(222, 222, 222);
+   padding: 10px;
+   border-radius: 10px;
+   margin-bottom: 10px;
+      }
+p {
+   font-family: Tahoma, sans-serif;
+   text-align: right;
+   font-size: 12px;
+  }
+fieldset {
+font-size: 25px;
+margin:12px auto;
+width:30%;
+color: black;
+border-radius: 10px;
+padding: 5px;
+         }
+input[type=text] {
+	cursor: pointer;
+	width: 50%;
+	height: 30px;
+                  }
+input[type=password] {
+	cursor: pointer;
+	width: 52%;
+	height: 30px;
+                      }
+input[type=submit] {
+text-align: center;
+display: block;
+font-size: 1em;
+width: 90%;
+height: 30px;
+background-color: #49a09d;
+color: white;
+border: 5;
+border-radius: 10px;
+cursor: pointer;
+}
+input[type=submit]:hover {
+background-color: #2d6462;
+}
+input[type=reset]{
+text-align: center;
+display: block;
+font-size: 1em;
+width: 90%;
+height: 30px;
+background-color: #49a09d;
+color: white;
+border: 5;
+border-radius: 10px;
+cursor: pointer;
+margin: 10px;
+                 }
+input[type=reset]:hover {
+	background-color: #2d6462;
+                        }
+div {
+	text-align: center;
+	padding: 5px;
+    }
+
+    form {
+    
+      margin: 10px;
+      padding: 20px;
+    }
+    td {
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(238, 199, 199);
+    }
